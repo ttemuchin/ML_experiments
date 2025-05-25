@@ -1,0 +1,12 @@
+# path: ./dataset
+path: C:/Users/ttemuchin4/Desktop/Нейронные сети/L5_3/dataset
+train: images/train
+val: images/val
+nc: 3
+
+names: ['buffalo', 'elephant', 'zebra']
+
+anchors:
+  - [1,2, 2,4, 4,8]
+  - [8,10, 12,16, 19,22]
+  - [22,28, 35,36, 40,51]
